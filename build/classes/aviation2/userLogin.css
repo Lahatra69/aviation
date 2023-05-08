@@ -1,0 +1,46 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 avr. 2023, 18:27:32
+    Author     : andri
+*/
+.root{
+    -fx-background-color:#ffffff;
+}
+.logOutBtn{
+    -fx-color:transparent;
+    -fx-background-color:transparent;
+}
+.cardAdmin{
+    -fx-background-color:#ececec;
+    -fx-background-radius:10px;
+}
+#errorLabel{
+     -fx-text-fill: red;
+     -fx-font-size: 10px;
+}
+#reussiteLabel{
+    -fx-text-fill: #42b72a;
+    -fx-font-size: 12px;
+}
+.adminLabel{
+    -fx-text-fill: #0f383d;
+}
+.btn{
+    -fx-color:#3abded;
+    -fx-background-radius:5px;
+    -fx-text-fill:white;
+    -fx-font-size:12px;
+}
+.btn:hover{
+    -fx-color:#ececec;
+    -fx-border-color:#3abded;
+    -fx-border-radius:5px;
+    -fx-text-fill:#3abded;
+}
+#showPasswordCheckBox .box{
+    -fx-background-color:white;
+}
+

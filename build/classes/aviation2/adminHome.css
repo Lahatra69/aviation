@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 mai 2023, 18:20:37
+    Author     : andri
+*/
+
+.root{
+    -fx-background-color:#ffffff;
+}
+.sideBar{
+    -fx-background-color:#ececec;
+}
+.title{
+    -fx-font-size:25px;
+    -fx-font-family: tahoma;
+}
+

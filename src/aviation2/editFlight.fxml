@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aviation2.EditFlightController">
+   <children>
+      <TextField fx:id="numVolField2" layoutX="73.0" layoutY="51.0" />
+      <TextField fx:id="fraisField2" layoutX="74.0" layoutY="205.0" />
+      <ComboBox fx:id="villeDepartComboBox2" layoutX="73.0" layoutY="124.0" prefWidth="150.0" />
+      <ComboBox fx:id="villeArriveeComboBox2" layoutX="312.0" layoutY="124.0" prefWidth="150.0" />
+      <Button fx:id="valideBtn" layoutX="97.0" layoutY="272.0" mnemonicParsing="false" onAction="#onClickValide" prefHeight="26.0" prefWidth="114.0" text="Valider" />
+   </children>
+</AnchorPane>

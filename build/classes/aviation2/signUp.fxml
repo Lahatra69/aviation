@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="360.0" stylesheets="@signUp.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aviation2.SignUpController">
+   <children>
+      <ImageView fitHeight="70.0" fitWidth="134.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Img/logs2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="312.0" layoutY="12.0" mnemonicParsing="false" onAction="#onclickLogOutbtn" prefHeight="45.0" prefWidth="46.0" styleClass="logOutBtn">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" styleClass="imgLog">
+               <image>
+                  <Image url="@Img/logout_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane layoutX="51.0" layoutY="87.0" prefHeight="478.0" prefWidth="258.0" styleClass="cardAdmin">
+         <children>
+            <TextField fx:id="usernameField" layoutX="36.0" layoutY="116.0" prefHeight="26.0" prefWidth="194.0" />
+            <PasswordField fx:id="passwordField" layoutX="36.0" layoutY="200.0" prefHeight="26.0" prefWidth="194.0" />
+            <Button layoutX="36.0" layoutY="370.0" mnemonicParsing="false" onAction="#onClickConnex" prefHeight="26.0" prefWidth="89.0" styleClass="btn" text="S'inscrire">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="145.0" layoutY="370.0" mnemonicParsing="false" onAction="#onclickAnnuler" prefHeight="26.0" prefWidth="90.0" styleClass="btn" text="Annuler" />
+            <Label fx:id="errorLabel" layoutX="36.0" layoutY="414.0" prefHeight="18.0" prefWidth="223.0" textAlignment="CENTER" />
+            <ImageView fitHeight="64.0" fitWidth="105.0" layoutX="101.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/signUp_icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="36.0" layoutY="93.0" prefHeight="18.0" prefWidth="141.0" styleClass="adminLabel" text="Nom d'utilisateur">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="172.0" prefHeight="18.0" prefWidth="105.0" styleClass="adminLabel" text="Mot de passe">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="showPasswordCheckBox" layoutX="36.0" layoutY="242.0" mnemonicParsing="false" onAction="#showPassword" text="Afficher le mot de passe">
+               <font>
+                  <Font name="Verdana" size="9.0" />
+               </font>
+            </CheckBox>
+            <Label fx:id="reussiteLabel" layoutX="58.0" layoutY="445.0" prefHeight="18.0" prefWidth="142.0" />
+            <Label layoutX="36.0" layoutY="270.0" prefHeight="18.0" prefWidth="154.0" styleClass="adminLabel" text="Confirmer mot de passe">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField1" layoutX="36.0" layoutY="295.0" prefHeight="26.0" prefWidth="194.0" />
+            <CheckBox fx:id="showPasswordCheckBox1" layoutX="36.0" layoutY="336.0" mnemonicParsing="false" onAction="#showPassword1" text="Afficher le mot de passe">
+               <font>
+                  <Font name="Verdana" size="9.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

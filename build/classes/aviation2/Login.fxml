@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aviation2.LoginController">
+   <children>
+      <ImageView fitHeight="262.0" fitWidth="215.0" layoutX="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Img/logs2.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="titleLabel" layoutX="206.0" layoutY="154.0" text="Voyagez avec nous ...">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="adminPanel" layoutX="36.0" layoutY="236.0" prefHeight="124.0" prefWidth="122.0" styleClass="cardLogin">
+         <children>
+            <Hyperlink layoutX="9.0" layoutY="78.0" onAction="#onclickAdmin" styleClass="hyperlinkk" text="Connexion Admin" />
+            <ImageView fitHeight="52.0" fitWidth="73.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/admin_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="240.0" layoutY="236.0" prefHeight="124.0" prefWidth="122.0" styleClass="cardLogin">
+         <children>
+            <Hyperlink layoutX="-2.0" layoutY="76.0" onAction="#onclickUser" styleClass="hyperlinkk" text="Connexion Utilisateurs" />
+            <ImageView fitHeight="52.0" fitWidth="73.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/users_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="442.0" layoutY="236.0" prefHeight="124.0" prefWidth="122.0" styleClass="cardLogin">
+         <children>
+            <Hyperlink layoutX="33.0" layoutY="76.0" onAction="#onclickSignup" styleClass="hyperlinkk" text="S'inscrire" />
+            <ImageView fitHeight="52.0" fitWidth="73.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Img/signUp_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

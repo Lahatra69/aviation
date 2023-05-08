@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 avr. 2023, 23:44:19
+    Author     : andri
+*/
+
+#Hellobtn{
+    
+    -fx-background-color: yellow;
+    -fx-text-fill:red;
+    -fx-background-radius:30px;
+}
+.root{
+    -fx-background-color: #ffffff;
+}
+#titleLabel{
+    -fx-font-size:20px;
+    -fx-font-family: tahoma;
+}
+.cardLogin{
+    -fx-background-color: #ececec; 
+    -fx-background-radius:10px;
+}
+.hyperlinkk{
+    -fx-border-color:transparent;
+    -fx-underline:false;
+}
